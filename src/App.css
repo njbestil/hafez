@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Noto Naskh Arabic', serif !important;
+}
+
+html, #hafez {
+  font-family: 'Noto Naskh Arabic', serif !important;
+}
+
+body {
+  background: #773d3b;
+}
+
+.noto-naskh-font {
+  font-family: 'Noto Naskh Arabic', serif;
+}
+
+.centered-absolute {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+/* Set direction to left-to-right */
+.ltr {
+  direction: ltr !important;
+}
+
+/* Set direction to right-to-left */
+.rtl {
+  direction: rtl !important;
+}
+
+#sound-on {
+  --animate-duration: 1s;
+}
